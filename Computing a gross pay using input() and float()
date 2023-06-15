@@ -1,0 +1,10 @@
+#The program ask for an amount of hours and a rate per hour to
+#compute a gross pay. We'll use the input and float intrinsic functions
+
+hrs = input("Enter Hours:")
+hrs = float(hrs)
+
+rat = input("Enter rate:")
+rat = float(rat)
+
+print('Pay:', hrs*rat)
